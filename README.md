@@ -1,12 +1,11 @@
 ![Shipwreck](https://raw.githubusercontent.com/unremarkablegarden/shipwreck/main/Shipwreck.png)
 
 # Shipwreck
+by Olle Holmberg / olleholmberg@icloud.com
 
 A sampler instrument for Max for Live to help you dive deep into the ocean of your failures, to explore the shipwreck of your praxis. Load thousands of samples into one device and select them with just two knobs.
 
 Don't be afraid. I have thrown 80 Gb folders into it. Sound files long or short don't matter. Format doesn't matter. It only loads one sample at a time, from a long list.
-
-by Olle Holmberg / olleholmberg@icloud.com
 
 You probably need Ableton Live 10 or 11 for this. Something with Max 8 under the hood. It uses Node.js behind the scenes. Max should take care of that, I think. Otherwise download and install it. 
 
