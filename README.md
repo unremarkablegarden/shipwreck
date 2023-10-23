@@ -1,5 +1,3 @@
-Here is the plain text formatted in Markdown:
-
 # Shipwreck
 
 a sampler instrument for Max for Live
