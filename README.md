@@ -9,7 +9,7 @@ Don't be afraid. I have thrown 80 Gb folders into it. Sound files long or short 
 
 You probably need Ableton Live 10 or 11 for this. Something with Max 8 under the hood. It uses Node.js behind the scenes. Max should take care of that, I think. Otherwise download and install it. 
 
-You need `file_handler.js`, `filewalker.js` and the `node_modules` folder of it to work. Put the whole containing folder `Shipwreck` in your Ableton user library.
+You need `file_handler.js`, `filewalker.js` and the `node_modules` folder for it to work. Put the whole containing folder `Shipwreck` in your Ableton user library.
 
 Drop a folder in the zone of the device to recursively load all samples inside it. It's set to go 7 levels deep in sub-folders. This can be changed in `file_handler.js` under the variable `depth`.
 
