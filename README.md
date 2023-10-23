@@ -1,6 +1,6 @@
 # Shipwreck
 
-a sampler instrument for Max for Live
+A sampler instrument for Max for Live to help you dive deep into the ocean of your failures, to explore the shipwreck of your praxis. Load thousands of samples into one device and select them with just two knobs.
 
 by Olle Holmberg / olleholmberg@icloud.com
 
