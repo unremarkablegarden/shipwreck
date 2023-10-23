@@ -1,11 +1,10 @@
 Here is the plain text formatted in Markdown:
 
-# Shipwreck sampler
+# Shipwreck
 
-## Max for Live
+a sampler instrument for Max for Live
 
 by Olle Holmberg / olleholmberg@icloud.com
-© 2023
 
 You probably need Ableton Live 10 or 11 for this. Something with Max 8 under the hood. It uses Node.js behind the scenes. Max should take care of that, I think. Otherwise download and install it. 
 
@@ -38,3 +37,5 @@ The last button in the MIDI section is to *map the incoming MIDI note number to 
 **Grid** enables a grid in the sample window so you can select according to quarter notes over the sample. **Tempo** and **Offset** are used to set the width of the grid and to align it to a sample. This functionality is pretty useless at the moment, but might come in handy if I implement time-strech and beat-sync at a later date.
 
 Enjoy!
+
+© 2023
