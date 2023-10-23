@@ -8,11 +8,11 @@ You probably need Ableton Live 10 or 11 for this. Something with Max 8 under the
 
 You need `file_handler.js`, `filewalker.js` and the `node_modules` folder of it to work. Put the whole containing folder `Shipwreck` in your Ableton user library.
 
-Drop a folder in the zone of the device to recursively load all samples inside it. 
+Drop a folder in the zone of the device to recursively load all samples inside it. It's set to go 7 levels deep in sub-folders. This can be changed in `file_handler.js` under the variable `depth`.
 
-You'll be able to select the first 128 x 128 = 16,384 samples with the first two MIDI CC's. Consider that you can automate and sequence this.
+You'll be able to select the first 128 x 128 = 16,384 samples with the first two MIDI CC's. Consider that you can map, automate or sequence these.
 
-In the UI, the first two number boxes, **Banks** and **Files**, are just to show you how much you can select. 
+In the UI, the first two number boxes, **Banks** and **Files**, are just to show you how much is available to select.
 
 If you load a folder with 256 samples, that will be two banks, Bank 1 and 2, with 128 samples in each. 1,000 samples would make 7 banks.
 
