@@ -1,3 +1,5 @@
+![Shipwreck](https://raw.githubusercontent.com/unremarkablegarden/shipwreck/main/Shipwreck.png)
+
 # Shipwreck
 
 A sampler instrument for Max for Live to help you dive deep into the ocean of your failures, to explore the shipwreck of your praxis. Load thousands of samples into one device and select them with just two knobs.
