@@ -7,7 +7,7 @@ A sampler instrument for Max for Live to help you dive deep into the ocean of yo
 
 [Download Shipwreck](https://github.com/unremarkablegarden/shipwreck/archive/refs/heads/main.zip)
 
-Don't be afraid. I have thrown 80 Gb folders into it. Sound files long or short don't matter. Format doesn't matter. It only loads one sample at a time, from a long list.
+Don't be afraid. I have thrown 80 Gb folders into it. Sound files long or short don't matter. It loads WAV and AIF/AIFF by default. You can change the `file_walker.js` file to also include MP3, FLAC, M4A, etc, but these don't load as quickly.
 
 You probably need Ableton Live 10 or 11 for this. Something with Max 8 under the hood. It uses Node.js behind the scenes. Max should take care of that, I think. Otherwise download and install it. 
 
