@@ -39,9 +39,13 @@ The last button in the MIDI section, note with sinewave, is to *map the incoming
 
 **Grid** enables a grid in the sample window so you can select according to quarter notes over the sample. **BPM** and **Offset** are used to set the width of the grid and to align it to a sample. This is merely for ease of selecting by clicking in the sample viewer.
 
-The next section is time-stretch. Enable **Sync** to latch it to your DAW clock, then **Stretch** to be able to keep it in tune, or detune it. The **menu** has different kinds of time stretching algorithms. These are fun to misuse like they did with jungle music in the 90s. **Original tempo** helps the sampler know how long the original sample was so that it stretches accordingly.
+The next section is time-stretch. Enable **Sync** to latch it to your DAW clock, then **Stretch** to be able to keep it in tune, or detune it. Keep in mind that the DAW transport needs to be running to get a sound in this mode, even if **Play** is enabled. 
+
+The **menu** has different kinds of time stretching algorithms. These are fun to misuse, like they did with jungle music in the 90s. **Original tempo** helps the sampler know how long the original sample was so that it stretches accordingly. Often you can find the right tempo by seeing when the 1.0.0 bar counter ends up on a round number with two 0's.
 
 **Folders** contains a list of previous folders you've dropped, for easy recall to go back. You can also clear it.
+
+I don't know how well the sampler will remember its files, folders, settings and options if you save and then reopen a project. I use an audio Resample track in Live to capture my jams.
 
 Enjoy!
 
