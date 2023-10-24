@@ -21,7 +21,7 @@ If you load a folder with 256 samples, that will be two banks, Bank 1 and 2, wit
 
 **Start** and **End** are rotaries so that you can map or control them. You can also make a selection by clicking and dragging in the sample view box.
 
-**Pitch** speeds up or slows down the sample playback. No time-stretching is implemented yet. Maybe a later version. There's no beat-sync either. If you set a negative pitch it will play the sample in reverse. 
+**Pitch** speeds up or slows down the sample playback. This is best to use when not in time-stretch mode.
 
 The three buttons next to the sample name and menu, are: **Randomise sample**, **Randomise selection**, **Select all**.
 
@@ -33,9 +33,13 @@ This is a bit like a modular synth in that the looping sound will be running qui
 
 If you enable **Retrig**, the sample will play back from the start of the selection each time a new MIDI note is played.
 
-The last button in the MIDI section is to *map the incoming MIDI note number to the sample selector*. Note number 60 will select sample number 60. This way you can use a melodic sequencer or drum sequencer to play all the sounds in a bank. Note that longer samples might not load in time to be drum tight, depending on your computer hardware also.
+The last button in the MIDI section, note with sinewave, is to *map the incoming MIDI note number to the sample selector*. Note number 60 will select sample number 60. This way you can use a melodic sequencer or drum sequencer to play all the sounds in a bank. Note that longer samples might not load in time to be drum tight, depending on your computer hardware also.
 
-**Grid** enables a grid in the sample window so you can select according to quarter notes over the sample. **Tempo** and **Offset** are used to set the width of the grid and to align it to a sample. This functionality is pretty useless at the moment, but might come in handy if I implement time-strech and beat-sync at a later date.
+**Grid** enables a grid in the sample window so you can select according to quarter notes over the sample. **BPM** and **Offset** are used to set the width of the grid and to align it to a sample. This is merely for ease of selecting by clicking in the sample viewer.
+
+The next section is time-stretch. Enable **Sync** to latch it to your DAW clock, then **Stretch** to be able to keep it in tune, or detune it. The **menu** has different kinds of time stretching algorithms. These are fun to misuse like they did with jungle music in the 90s. **Original tempo** helps the sampler know how long the original sample was so that it stretches accordingly.
+
+**Folders** contains a list of previous folders you've dropped, for easy recall to go back. You can also clear it.
 
 Enjoy!
 
