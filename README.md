@@ -7,11 +7,15 @@ A sampler instrument for Max for Live to help you dive deep into the ocean of yo
 
 [Download Shipwreck](https://github.com/unremarkablegarden/shipwreck/archive/refs/heads/main.zip)
 
+## Install
+
 Don't be afraid. I have thrown 80 Gb folders into it. Sound files long or short don't matter. It loads WAV and AIF/AIFF by default. You can change the `file_walker.js` file to also include MP3, FLAC, M4A, etc, but these don't load as quickly.
 
 You probably need Ableton Live 10 or 11 for this. Something with Max 8 under the hood. It uses Node.js behind the scenes. Max should take care of that, I think. Otherwise download and install it. 
 
 You need `file_handler.js`, `filewalker.js` and the `node_modules` folder for it to work. Put the whole containing folder `Shipwreck` in your Ableton user library.
+
+## Use
 
 Drop a folder in the zone of the device to recursively load all samples inside it. It's set to go 7 levels deep in sub-folders. This can be changed in `file_handler.js` under the variable `depth`.
 
@@ -44,6 +48,8 @@ The next section is time-stretch. Enable **Sync** to latch it to your DAW clock,
 The **menu** has different kinds of time stretching algorithms. These are fun to misuse, like they did with jungle music in the 90s. **Original tempo** helps the sampler know how long the original sample was so that it stretches accordingly. Often you can find the right tempo by seeing when the 1.0.0 bar counter ends up on a round number with two 0's.
 
 **Folders** contains a list of previous folders you've dropped, for easy recall to go back. You can also clear it.
+
+## Notes
 
 I don't know how well the sampler will remember its files, folders, settings and options if you save and then reopen a project. I use an audio Resample track in Live to capture my jams.
 
