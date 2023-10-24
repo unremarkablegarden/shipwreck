@@ -27,7 +27,7 @@ If you load a folder with 256 samples, that will be two banks, Bank 1 and 2, wit
 
 The three buttons next to the sample name and menu, are: **Randomise sample**, **Randomise selection**, **Select all**.
 
-Play plays the sample and loops the selection while **Loop** is on.
+**Play** plays the sample and loops the selection while **Loop** is on.
 
 In the MIDI section, if you enable **Gate**, incoming MIDI notes will trigger the envelope below. 
 
