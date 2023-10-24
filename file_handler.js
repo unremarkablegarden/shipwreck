@@ -16,7 +16,8 @@ const handlers = {
     var options = {
       // entryType: 'all',
       type: 'files',
-      fileFilter: [ '*.wav', '*.aiff', '*.aif', '*.mp3', '.m4a', '*.flac' ],
+      // fileFilter: [ '*.wav', '*.aiff', '*.aif', '*.mp3', '.m4a', '*.flac' ],
+      fileFilter: [ '*.wav', '*.aiff', '*.aif'],
       directoryFilter: [ '!.git', '!*modules' ],
       depth: 7
     };
