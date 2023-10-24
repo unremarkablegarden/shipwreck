@@ -21,7 +21,7 @@ In the UI, the first two number boxes, **Banks** and **Files**, are just to show
 
 If you load a folder with 256 samples, that will be two banks, Bank 1 and 2, with 128 samples in each. 1,000 samples would make 7 banks.
 
-**Start** and **End** are rotaries so that you can map or control them. You can also make a selection by clicking and dragging in the sample view box.
+**Start** and **End** are rotaries so that you can map or control them. You can also make a selection by clicking and dragging in the sample view box. If you use the sample box it makes a selection at sample zero-crosspoints, which reduces clicks and pops. If you use Start and End, for now, they aren't that smart.
 
 **Pitch** speeds up or slows down the sample playback. This is best to use when not in time-stretch mode.
 
