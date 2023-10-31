@@ -31,23 +31,43 @@ If you load a folder with 256 samples, that will be two banks, Bank 1 and 2, wit
 
 The three buttons next to the sample name and menu, are: **Randomise sample**, **Randomise selection**, **Select all**.
 
+---
+
 **Play** plays the sample and loops the selection while **Loop** is on.
-
-In the MIDI section, if you enable **Gate**, incoming MIDI notes will trigger the envelope below. 
-
-This is a bit like a modular synth in that the looping sound will be running quietly behind the scenes, unsynced by default, and then let through a VCA/amplifier controlled by the **ADSR envelope**. You can click on the curve or on the small numbers below to set attack, decay, sustain, release.
-
-If you enable **Retrig**, the sample will play back from the start of the selection each time a new MIDI note is played.
-
-The last button in the MIDI section, note with sinewave, is to *map the incoming MIDI note number to the sample selector*. Note number 60 will select sample number 60. This way you can use a melodic sequencer or drum sequencer to play all the sounds in a bank. Note that longer samples might not load in time to be drum tight, depending on your computer hardware also.
 
 **Grid** enables a grid in the sample window so you can select according to quarter notes over the sample. **BPM** and **Offset** are used to set the width of the grid and to align it to a sample. This is merely for ease of selecting by clicking in the sample viewer.
 
-The next section is time-stretch. Enable **Sync** to latch it to your DAW clock, then **Stretch** to be able to keep it in tune, or detune it. Keep in mind that the DAW transport needs to be running to get a sound in this mode, even if **Play** is enabled. 
+---
 
-The **menu** has different kinds of time stretching algorithms. These are fun to misuse, like they did with jungle music in the 90s. **Original tempo** helps the sampler know how long the original sample was so that it stretches accordingly. Often you can find the right tempo by seeing when the 1.0.0 bar counter ends up on a round number with two 0's.
+In the **Timestretch & Filter** section, if you enable **On** it will stretch to the tempo of your DAW. Set the **File BPM** to tell the sampler what the original tempo of the file is. This is necessary for the time sync to work properly. Can also be misused for fun of course.
+
+Enable **Stretch** to use **Detune**. You can pitch it up and down an octave. 
+
+The **menu** has different kinds of time stretching algorithms. These are fun to misuse, like they did with jungle music in the 90s. **File BPM** helps the sampler know how long the original sample was so that it stretches accordingly. Often you can find the right tempo by seeing when the 1.0.0 bar counter ends up on a round number with two 0's.
+
+The **filter** is a basic **LP** and **HP** on the stereo out at the final stage.
 
 **Folders** contains a list of previous folders you've dropped, for easy recall to go back. You can also clear it.
+
+---
+
+In the MIDI section, if you enable **On**, incoming MIDI notes will trigger the envelope below. The sampler has 64 voice polyphony. It can be used as a bit of a granular synth in a way. All the currently playing notes will keep playing as from the start/end points they were triggered from, while you can make a new sample selection for the subsequent voices.
+
+**Loop** will loop the selection, but only really have an effect on short files, generally (short selections). It concerns what happens if the note is longer than the selection. If it is, the selection will loop. **Loop interpolation** lets you crossfade the loop a bit.
+
+**Gain** lets you boost the signal here. Since we're automixing 64 voices here, it can be a bit quiet otherwise. The gain is related to the boost on a limiter with a 0 db ceiling, on the stereo sum of the 64 channels.
+
+The **ADSR** controls the envelope of the sounds triggered by MIDI.
+
+**Note to startpoint** will use the pitch of the incoming notes to set the startpoint of the sample with each note. Notes 0-127 are mapped to 0-90% of the sample.
+
+---
+
+**Pitch spread** sets a range for randomising the pitch of each successive voice when using the MIDI mode. To be annoying I've put high pitch on the left side and low on the right. You're welcome.
+
+**Pan spread** is the same, but a stereo effect.
+
+**Voice allocation** lets you see which of the 64 voices are in used, and helps understand at what point new voices start choking off old voices.
 
 ## Notes
 
