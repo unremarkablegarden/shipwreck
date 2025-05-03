@@ -7,17 +7,21 @@ A sampler instrument for Max to help you dive deep into the ocean of your failur
 
 [Download Shipwreck](https://github.com/unremarkablegarden/shipwreck/archive/refs/heads/main.zip)
 
-## Install
+## Install (Max 9)
 
-You probably need Ableton Live 10 or 11 for this. Something with Max 8 under the hood. It uses Node.js behind the scenes. Max should take care of that, I think. Otherwise download and install it. 
+Node is built in to Max now, so we can use the V8 engine to do the recursive file-finding. No longer needing external JS script and Node modules. You just need to run `Shipwreck x.xx.maxpat` in Max 9.
+
+## Install (Max 8 and Max for Live)
+
+For the Max 8 version you probably need Ableton Live 10 or 11. It uses Node.js behind the scenes. Max should take care of that, I think. Otherwise download and install it. 
 
 You need `file_handler.js`, `filewalker.js` and the `node_modules` folder for it to work. Put the whole containing folder `Shipwreck` in your Ableton user library.
 
-## Use
+## Use 
 
-Drop a folder in the zone of the device to recursively load all samples inside it. It's set to go 7 levels deep in sub-folders. This can be changed in `file_handler.js` under the variable `depth`.
+# These instructions are for the Max 8/Max for Live version. The Max 9 version has evolved, but most of this still applies.
 
-Don't be afraid. I have thrown 80 Gb folders into it. Sound files long or short don't matter. It loads WAV and AIF/AIFF by default. You can change the `file_walker.js` file to also include MP3, FLAC, M4A, etc, but these don't load as quickly.
+Drop a folder in the zone of the device to recursively load all samples inside it. Don't be afraid. I have thrown 80 Gb folders into it. Sound files long or short don't matter. It loads WAV and AIF/AIFF by default. (Max8/Live: You can change the `file_walker.js` file to also include MP3, FLAC, M4A, etc, but these don't load as quickly).
 
 You'll be able to select the first 128 x 128 = 16,384 samples with the first two MIDI CC's. Consider that you can map, automate or sequence these.
 
@@ -75,4 +79,4 @@ I don't know how well the sampler will remember its files, folders, settings and
 
 Enjoy!
 
-© 2023
+© 2022-2025
