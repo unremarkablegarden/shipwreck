@@ -3,7 +3,7 @@
 # Shipwreck
 by Olle Holmberg / olleholmberg@icloud.com
 
-A sampler instrument for Max for Live to help you dive deep into the ocean of your failures, to explore the shipwreck of your praxis. Load thousands of samples into one device and select them with just two knobs.
+A sampler instrument for Max to help you dive deep into the ocean of your failures, to explore the shipwreck of your praxis. Load thousands of samples into one device and select them with just two knobs.
 
 [Download Shipwreck](https://github.com/unremarkablegarden/shipwreck/archive/refs/heads/main.zip)
 
